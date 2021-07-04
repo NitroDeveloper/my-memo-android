@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nitroex.memo.my_memo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name="com.nitroex.my_memo.ui.memo_status.MemoHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.utils.attachFile.AttachFileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.memo_status.SearchMemoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.memo_create.InternalFormPvActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.utils.attachFile.GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.utils.attachFile.ShowPicFullScreenNoAniActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.utils.attachFile.ShowPicFullScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.utils.attachFile.ShowPicFullScreenDwActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.memo_create.InternalFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.memo_status.MemoStatusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.memo_favorite.FavoriteMemoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.memo_draft.DraftMemoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.memo_create.SelectFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.CompanyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nitroex.my_memo.ui.SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nitroex.my_memo.BaseActivity" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_ex_notice" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+        <service
+            android:name="com.nitroex.my_memo.service.FirebaseMessageService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

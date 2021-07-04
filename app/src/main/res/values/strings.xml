@@ -1,0 +1,519 @@
+<resources>
+
+    <string name="app_name" translatable="false">My Memo</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="internal_form">Internal Form</string>
+
+    <string name="menu">Menu</string>
+    <string name="txt_alert_sign_out">Do you want to quit this application?</string>
+    <string name="btn_submit">Submit</string>
+    <string name="yes">Yes</string>
+    <string name="Myprofile">Profile</string>
+    <string name="Creatememo">Create memo</string>
+    <string name="Draftmemo">Draft memo</string>
+    <string name="Memostatus">Memo status</string>
+    <string name="Cashadvancelist">Cash advance list</string>
+    <string name="notificationSetting">Notification setting</string>
+    <string name="Creatememoformlist">Create memo form list</string>
+    <string name="Searchformname">search form name</string>
+    <string name="Nonfinancialform">Non Financial Memo</string>
+    <string name="Nonfinancialformtest">Non financial</string>
+    <string name="Confirmsend">Confirm Send</string>
+    <string name="financialform">Financial form</string>
+    <string name="financialformDetail">Non financial</string>
+    <string name="Advanceform">Advance Form</string>
+    <string name="AdvanceformDetail">แบบฟอร์มสำหรับการขอเบิกเงิน advance</string>
+    <string name="Nameform">Name form</string>
+    <string name="NameformDetail">Description about form</string>
+    <string name="Totherelevant">All recipients see document simultaneously</string>
+    <string name="Totherelevantrespectively">All recipients see document according to their roles</string>
+    <string name="text_fyi_yes">For Readonly</string>
+    <string name="text_fyi_no">For Acknowleded</string>
+    <string name="text_fyi_app">For approval</string>
+    <string name="Prelist">Pre-list</string>
+    <string name="Other">Other</string>
+    <string name="selece">Search from name, surname, position</string>
+    <string name="selece_from">Select from</string>
+    <string name="action_list">To do list</string>
+    <string name="search_action_list">Search To do list</string>
+
+    <string name="Memono">Memo No.</string>
+    <string name="Type">Type</string>
+    <string name="Financialfrom">Financial Memo</string>
+    <string name="name">Operator name</string>
+    <string name="Accountpayee">Account payee</string>
+    <string name="datestra">Payment Date</string>
+    <string name="datefodons">Date of done</string>
+    <string name="tohere">(Send to all involved people or submit to the approver by hierarchically)</string>
+    <string name="tx_delete">Do you want to delete this draft?</string>
+    <string name="txt_check_email">กรุณาเลือกบริษัทที่ต้องการแก้ไขข้อมูล\nจากนั้นกดปุ่มยืนยัน</string>
+    <string name="ok">OK</string>
+    <string name="clanel">No</string>
+    <string name="select_company">Please select company</string>
+    <string name="test_signed">Someone signed in from another device</string>
+
+    <!-- Menu -->
+    <string name="my_profile">Profile</string>
+    <string name="my_profile_status">Current memo status</string>
+    <string name="my_profile_status_committee">Current committee status</string>
+    <string name="create_memo">Create memo</string>
+    <string name="draft_memo">Draft memo</string>
+    <string name="memo_status">Memo status</string>
+    <string name="memo_txt">Memo Status</string>
+    <string name="memodetail">Memo Detail</string>
+    <string name="cash_advance_list">Cash advance list</string>
+    <string name="reimbursement_form">Reimbursement form</string>
+    <string name="cashier">Cashier</string>
+    <string name="summary_memo">Summary memo</string>
+    <string name="summary_advance">Summary advance</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Sign in</string>
+    <string name="forgot_pass">Forgot password?</string>
+
+    <string name="want_to_exit_forgot_pass">Do you want to quit this forgot password?</string>
+    <string name="want_to_exit">Do you want to quit this application?</string>
+    <string name="want_back_to_edit">Do you want to save draft memo?</string>
+    <string name="want_send">Do you want to submit this form?</string>
+    <string name="want_edit">Do you want to revise this form?</string>
+    <string name="want_esc">Do you want to unsubscribe this form?</string>
+    <string name="want_revis">Do you want to revise this list?</string>
+    <string name="want_confirm">Do you want to confirm this list?</string>
+    <string name="want_cancel">Do you want to cancel this list?</string>
+    <string name="want_reim">Do you want to send Reimbursement Form?</string>
+    <string name="want_delete">Do you want to delete attached file?</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="waiting">Waiting…</string>
+    <string name="loading">Loading…</string>
+    <string name="noti_setting">Notification setting</string>
+    <string name="email">Email</string>
+    <string name="email_p">Email</string>
+    <string name="verk">Verk</string>
+    <string name="memo">Memo</string>
+    <string name="line">Line</string>
+    <string name="waiting_approve">Waiting for Approval</string>
+    <string name="waiting_read">Waiting for Agree</string>
+    <string name="txt_resend">Do you want to resend notification of this form?</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="is_user_login">Someone just log in by using your account. Do you want to confirm this login?</string>
+    <string name="txt_alert_sign_out_main">Do you want to logout?</string>
+    <string name="over_buget">The selected approver does not have the requested credit limit. Do you want to confirm?</string>
+    <string name="concurred">Concur</string>
+    <string name="seleceto">select to</string>
+    <string name="seleceype">select type</string>
+    <string name="selecememono">select memo no.</string>
+    <string name="seleceprelist">select subject</string>
+    <string name="selececoncurred">select concur</string>
+    <string name="selececoncc">select cc</string>
+    <string name="selecebcc">select bcc</string>
+    <string name="selecesubtype">select sub type</string>
+    <string name="selececonfirm">select confirm payment</string>
+    <string name="Enteramount">enter amount</string>
+    <string name="Entersubject">enter subject</string>
+    <string name="success">Send your form successfully</string>
+    <string name="successกdraft">Save your memo form successfully</string>
+    <string name="lees_than_paid">Less than paid</string>
+    <string name="over_paid">Over paid</string>
+    <string name="balance_paid">Balance</string>
+    <string name="detail">Detail</string>
+    <string name="change_password">Change password</string>
+    <string name="p_password">Reset Password 8 – 16 character. including with [A–Z], [a–z], [0–9]</string>
+    <string name="enter_new_password">Please enter new password</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="enter_confirm_pass">Please enter confirm password</string>
+    <string name="enter_pass_match">Please enter the password to match</string>
+    <string name="enter_email_and_send">Fill in your email, then press the confirm button.\nPasswords will be sent to your private email.</string>
+    <string name="take_a_photo">Take a Photo</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="tv_image">Insert fail - post max file must be exactly 8 MB.</string>
+
+    //CashAdvance
+    <string name="ver_otp">Check OTP</string>
+    <string name="date">Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="requested_name">Requested Name</string>
+    <string name="emp_id">Employee ID</string>
+    <string name="heading">Subject</string>
+    <string name="subject">Subject</string>
+    <string name="requested_payment">Requested payment</string>
+    <string name="account_payee">Account payee</string>
+    <string name="payment_date">Payment Date</string>
+    <string name="date_of_done">Date of done</string>
+    <string name="cash_detail">Detail</string>
+    <string name="total">Total</string>
+    <string name="bath">Bath</string>
+    <string name="detail_status">Status detail</string>
+    <string name="approved">Approve</string>
+    <string name="paid">Paid</string>
+    <string name="cleared_approve">Cleared Approved</string>
+    <string name="receive">Receive</string>
+    <string name="overpaid_approve">OverPaid Approved</string>
+    <string name="cash_over_paid">Over Paid</string>
+    <string name="btn_clear">Clear</string>
+    <string name="amount_spent">Used amount </string>
+    <string name="amount_refund">Returned amount </string>
+    <string name="amount_requested">Over paid amount</string>
+    <string name="want_to_clear">Do you want to clear this list?</string>
+    <string name="evidence">Attach File</string>
+    <string name="advance_no">Advance No.</string>
+    <string name="agency">Section</string>
+    <string name="trial_paid">Advance Amount (Baht)</string>
+    <string name="expenses">Expenses</string>
+    <string name="bill">Receipt</string>
+    <string name="people">Person</string>
+    <string name="no_comment">no comment</string>
+    <string name="attach_file">Attach File :\u0020</string>
+    <string name="edit_attach_file">Edit Attach File</string>
+    <string name="cash_advance_search">Cash Advance Search</string>
+    <string name="division">Division</string>
+    <string name="department">Department</string>
+    <string name="section">Section</string>
+    <string name="search_from">Search from</string>
+    <string name="search_to">Search to</string>
+    <string name="sub_type">Sub type</string>
+    <string name="status">Status</string>
+    <string name="select_status">Please select status</string>
+    <string name="search">Search</string>
+    <string name="select_division">Please select Division</string>
+    <string name="select_department">Please select Department</string>
+    <string name="advance_status">Advance Status</string>
+    <string name="unit">Unit :\u0020</string>
+    <string name="unit_price">Unit Price :\u0020</string>
+    <string name="seminar_provinces">Seminar provinces</string>
+    <string name="approve_date">Approved Date</string>
+    <string name="modify_date">Modify Date</string>
+    <string name="enter_advance_no_or_subject">enter advance no. or subject</string>
+
+    //MemoStatus
+    <string name="history">History</string>
+    <string name="memo_detail">Memo detail</string>
+    <string name="mobile_service">Mobile Service</string>
+    <string name="save">Memo</string>
+    <string name="Save">Save</string>
+    <string name="no">Memo No.</string>
+    <string name="from">Create By :\u0020</string>
+    <string name="to">To</string>
+    <string name="past">Via</string>
+    <string name="cc">CC</string>
+    <string name="update_cc">Update CC</string>
+    <string name="bcc">BCC</string>
+    <string name="cp">CP</string>
+    <string name="form">Form</string>
+    <string name="format">Format</string>
+    <string name="type">Type</string>
+    <string name="subtype">Sub Type</string>
+    <string name="sub_ref">Sub Ref.</string>
+    <string name="amont">Amount</string>
+    <string name="budget">Budget</string>
+    <string name="best_regards">Best regards</string>
+    <string name="btn_copy">Copy</string>
+    <string name="btn_exp_pdf">Export PDF</string>
+    <string name="btn_revise">Revise</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="enter_your_comment">Enter your comment…</string>
+    <string name="terminate">Terminate</string>
+    <string name="btn_disagree">Disagree</string>
+    <string name="btn_agree">Agree</string>
+    <string name="btn_disapprove">Disapprove</string>
+    <string name="btn_approve">Approved</string>
+    <string name="memo_status_search">Memo Status Search</string>
+    <string name="memo_type">Memo Type</string>
+    <string name="issue_date">Issue date</string>
+    <string name="btn_search">Search</string>
+    <string name="agree">Agree</string>
+    <string name="perm_buy_form_doc">Permission to buy a form document</string>
+    <string name="capex">Capex</string>
+    <string name="wait_for_approve">Wait for approval</string>
+    <string name="wait_for_agree">Waiting for Agree</string>
+    <string name="disapprove">Disapprove</string>
+    <string name="disagree">Disagree</string>
+    <string name="delete">Delete</string>
+    <string name="canceled" translatable="false">Canceled</string>
+    <string name="waiting_for_acknowledgement" translatable="false">Waiting for acknowledgement</string>
+    <string name="acknowleded" translatable="false">Acknowleded</string>
+    <string name="some_recipients_acknowleded" translatable="false">Some recipients acknowleded</string>
+    <string name="all_recipient_acknowleded" translatable="false">All recipient acknowleded</string>
+    <string name="waiting_recipient" translatable="false">Waiting recipient</string>
+    <string name="read" translatable="false">Read</string>
+    <string name="some_recipient_read" translatable="false">Some recipient read</string>
+    <string name="all_recipient">All recipient</string>
+    <string name="tv_wfa">Waiting for acknowledgement</string>
+    <string name="tv_sra">Some recipients acknowleged</string>
+    <string name="tv_ara">All recipient acknowledge</string>
+    <string name="tv_wr">Waiting recipient</string>
+    <string name="tv_srr">Some recipients read</string>
+    <string name="all">All</string>
+    <string name="memo_no_or_subject">memo no.or subject</string>
+
+    //tag calendar
+    <string name="this_month">this_month</string>
+    <string name="work_calendar">work_calendar</string>
+    <string name="tv_error_character">Password length must have alleast 8 character !!</string>
+    <string name="tv_error_uppercasecharacter">Password must have atleast one uppercase character !!</string>
+    <string name="tv_error_lowercasecharacter">Password must have atleast one lowercase character !!</string>
+    <string name="tv_error_digitcharacter">Password must have atleast one digit number !!</string>
+    <string name="tv_error_confirm">Password and confirm password does not match !!</string>
+
+    //Profile
+    <string name="titile_up">Application update</string>
+    <string name="titile_tv_up">Please update your application</string>
+    //ReimbursementForm
+    <string name="position">Position</string>
+    <string name="enter_req_name">Enter requested name</string>
+    <string name="reim_trial_paid">Advance Amount</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="balance">Balance</string>
+    <string name="less_than_paid">Less than Paid</string>
+    <string name="reim_over_paid">Over Paid</string>
+    <string name="submit">Submit</string>
+    <string name="not_response">No response, please try again</string>
+    <string name="select_req_name">Select requested name</string>
+    <string name="enter_trial_paid">Please enter the advance amount</string>
+    <string name="enter_amount_spent">Please enter the used amount</string>
+    <string name="enter_anuunt_refund">Please enter the returned amount</string>
+    <string name="refund_more_than_0">The returned amount must more than 0</string>
+    <string name="enter_amount_request">Please enter the advance amount</string>
+    <string name="request_more_then_0">The over paid amount must more than 0</string>
+    <string name="spent_more_then_trial">The used amount must more than the advance amount</string>
+    <string name="enter_description">Please enter the description</string>
+    <string name="enter_unit">Please enter the unit</string>
+    <string name="enter_unit_price">Please enter the unit price</string>
+    <string name="enter_remark">Remark</string>
+    <string name="reim_enter_amount">Please enter the amount</string>
+    <string name="spent_and_refund__trailpaid">The used amount add with the returned amount must be equal to the advance amount</string>
+    <string name="request_spent__trialpaid">The over paid amount deducted from the used amount must be equal to the advance amount</string>
+    <string name="trialpaid__total">Advance amount must be equal to the total expenses</string>
+    <string name="spent__total">The used amount must be equal to the total expense</string>
+    <string name="non_financial">Non Financial</string>
+    <string name="not_about_budget">Type approval of non financial</string>
+    <string name="description_per_item">Description</string>
+    <string name="unit_per_item">Unit</string>
+    <string name="unit_price_per_item">Unit Price</string>
+    <string name="remark">Remark</string>
+
+    //Summary
+    <string name="year_of_doc">Year of Document</string>
+    <string name="year">Year</string>
+    <string name="issue">Issue</string>
+
+    //SummaryAdvance
+    <string name="on_hold">คงค้าง</string>
+    <string name="cleared">Cleared</string>
+    <string name="sum_over_paid">Over Paid</string>
+
+    <string name="amount">Amount</string>
+    <string name="memo_no">Memo No. or Subject</string>
+    <string name="used_amount">Used amount </string>
+    <string name="r_amount">Returned amount </string>
+    <string name="confirm">Confirm</string>
+    <string name="please_details">Please fill in the details</string>
+    <string name="please_agree_day">Please fill in the agree day</string>
+    <string name="please_concur">Please fill in the concur</string>
+
+    <string name="complete">Successfully</string>
+    <string name="search_subject">Search subject</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="advance_amount">Advance Amount</string>
+    <string name="error">No response, please try again</string>
+    <string name="please_select">You choose a duplicate contact, please select a new one.</string>
+    <string name="please_select_name">คุณเลือกรายชื่อตรงกับชื่อตัวเอง กรุณาเลือกใหม่</string>
+    <string name="please_select_type">Please select type</string>
+    <string name="please_select_memo">Please select Memo No.</string>
+    <string name="please_select_subject">Please select subject</string>
+    <string name="please_select_amount">Please enter the amount</string>
+    <string name="please_select_currency">Please select currency</string>
+    <string name="please_select_subtype">Please select sub type</string>
+    <string name="please_select_to">Please select To</string>
+    <string name="please_select_from">Please select From</string>
+    <string name="please_select_confirm_payment">Please confirm payment</string>
+    <string name="please_memo">Please select type</string>
+    <string name="data_not_found">Not found data</string>
+    <string name="please_select_confirm">คุณเลือกชื่อ Confirm payment ตรงกับชื่อผู้เบิก</string>
+    <string name="select_confirm">Please confirm payment again</string>
+    <string name="select_form_format">select form format</string>
+    <string name="please_select_form_format">Please select form format</string>
+    <string name="date_to">to</string>
+
+    //cas_
+    <string name="cas_title_Message">Not found data</string>
+    <string name="cas_title_History">History</string>
+    <string name="cas_title_Confirm_Page">Confirm page</string>
+    <string name="cas_requested_name">Requested Name</string>
+    <string name="cas_employee_id">Employee ID</string>
+    <string name="cas_section">Section</string>
+    <string name="cas_search">Search Cashier</string>
+    <string name="cas_search_from">Search from</string>
+    <string name="cas_sub_type">Sub Type</string>
+    <string name="cas_status">Status</string>
+
+    //Favorites
+    <string name="favorites_list">Favorites List</string>
+    <string name="favorites_form">Create memo from favorite</string>
+    <string name="favorites">Favorites List</string>
+
+    //CreateMemo
+    <string name="send">Send</string>
+    <string name="timeInmillis">Please select a completed date that is later or being the payment date</string>
+    <string name="please_requested_name">Please select the requested name</string>
+    <string name="please_objective">Please fill the objective</string>
+    <string name="please_enter_amount">Please enter the amount</string>
+    <string name="please_enter">Please enter data</string>
+    <string name="example">Example</string>
+    <string name="example_of_advance">Example of Advance Memo form</string>
+    <string name="example_financial">Example Financial Memo</string>
+    <string name="example_nonfinancial">Example Non financial Memo </string>
+    <string name="advance_memo">Advance Memo</string>
+    <string name="sub_reference">Sub Reference</string>
+    <string name="form_format">Form Format</string>
+    <string name="budget_yes">Budget : Yes</string>
+    <string name="budget_no">Budget : No</string>
+    <string name="budget_none">Budget: N/A</string>
+    <string name="budget_yes2">Yes</string>
+    <string name="budget_no2">No</string>
+    <string name="budget_none2">N/A</string>
+    <string name="confirm_payment">Confirm payment</string>
+    <string name="CP">CP</string>
+    <string name="SubT">SubT</string>
+    <string name="SubR">SubR</string>
+    <string name="deparment">Department</string>
+    <string name="your_detail">Your Detail</string>
+    <string name="your_name_surname">Your name surname</string>
+    <string name="your_position">Your Position</string>
+    <string name="back_to_edit">Back to Edit</string>
+    <string name="objective">Objective</string>
+
+    <string name="please_fill_date">Please fill date</string>
+    <string name="please_fill_email">Please fill email</string>
+    <string name="txt_otp_email">Please fill OTP from Email</string>
+    <string name="verify_otp">Check OTP</string>
+    <string name="en_otp">Please fill OTP</string>
+    <string name="OTP_email">Please fill OTP from your Email</string>
+    <string name="enter_otp">Please fill OTP</string>
+
+    <string name="advance_detail">Advance Detail</string>
+    <string name="digits" translatable="false">abcdefghijklmnopqrstuvwxyz0123456789กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ ิ ี ื ์ ุ ู ึเแใไๆ ำะ ั ๊ฯโ ็ ้ ่า.๋()</string>
+
+    <string name="en_password">กรุณาใส่รหัสผ่าน</string>
+    <string name="c_password">กรุณายืนยันรหัสผ่าน</string>
+    <string name="txt_forgotpassword_page">ทำการกรอกข้อมูลอีเมลของคุณ จากนั้นกดปุ่มยืนยันรหัสผ่านจะถูกส่งไปยังอีเมลส่วนตัวของคุณ</string>
+    <string name="send_email_success">ส่งรหัสผ่านเข้าอีเมลของคุณเรียบร้อยแล้ว</string>
+    <string name="correct_info">กรุณากรอกข้อมูลให้ถูกต้อง</string>
+    <string name="try_again_connect_server">Cannot connect to the server..</string>
+    <string name="next">next</string>
+    <string name="signature_name">Signature</string>
+    <string name="signature_name_update">Signature Update</string>
+
+    <string name="committee">Committee Memo</string>
+    <string name="example_committee">Example Committee Memo </string>
+    <string name="request">Request Memo</string>
+    <string name="example_request">Example Request Memo</string>
+    <string name="display_stamp_on_pdf">Display stamp on PDF</string>
+    <string name="pdf_approve">Show approval on PDF</string>
+    <string name="pdf_disapprove">Don’t show approval on PDF</string>
+    <string name="none">No</string>
+    <string name="confidential">Confidential</string>
+    <string name="priority">Priority</string>
+    <string name="immediate">Immediate</string>
+    <string name="urgent">Urgent</string>
+    <string name="currency">Currency</string>
+    <string name="comment">Comment</string>
+    <string name="please_fill_comment">Please fill comment</string>
+    <string name="nocomment">No comment</string>
+    <string name="signature">Signature</string>
+    <string name="import_signature">Import Signature</string>
+    <string name="board_agree">คณะกรรมการพิจารณา</string>
+    <string name="approve">Approve</string>
+    <string name="not_disapprove">Disapprove</string>
+    <string name="search_emp">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="show_member">Committee Member</string>
+    <string name="day_agree">Period waiting for agreeing from committee</string>
+    <string name="days_of_agree">Days of agree</string>
+    <string name="select_day_agree">Select agree day</string>
+    <string name="my_signature">My Signature</string>
+    <string name="skip">skip</string>
+    <string name="set_display_format">Numbering Format</string>
+    <string name="th">Thai</string>
+    <string name="en">Arabic</string>
+
+    <string name="success_signature">Save successfully</string>
+    <string name="day">Day</string>
+    <string name="memo_Committee">Committee form status</string>
+    <string name="secretary">secretary</string>
+    <string name="committee_name">Committee</string>
+    <string name="close">Close</string>
+    <string name="file_attached">File Attached (Can open for reviewing)</string>
+    <string name="acknowledge">Acknowledge</string>
+    <string name="acknowledge_confirm">Do you want to acknowledge this form?</string>
+    <string name="please_check_internet">Please check your internet connection.</string>
+    <string name="please_input_fill">Please input fill</string>
+    <string name="agree_confirm">Do you want to agree this form?</string>
+    <string name="disagree_confirm">Do you want to disagree this form?</string>
+    <string name="approve_confirm">Do you want to approve this form?</string>
+    <string name="disapprove_confirm">Do you want to disapprove this form?</string>
+    <string name="want_copy">Do you want to copy this form?</string>
+    <string name="want_export_pdf">Do you want to export this form to PDF?</string>
+    <string name="want_revise">Do you want to revise this form?</string>
+
+    <!--func_camera-->
+    <string name="please_choose">Please Choose</string>
+    <string name="please_select_camera">Please Choose</string>
+    <string name="choose_camera">Camera</string>
+    <string name="chose_album">Gallery</string>
+
+    <string name="secret">Secret</string>
+    <string name="top_secret">Top Secret</string>
+    <string name="please_input_subject">Please fill Subject</string>
+    <string name="please_input_position">Please fill Position</string>
+    <string name="government">Government</string>
+    <string name="please_input_government">Please fill government</string>
+    <string name="set_confidential">Configure secret</string>
+    <string name="set_speed_level">Configure speed</string>
+    <string name="no_number">No.</string>
+    <string name="please_select_doc_no">Please choose no.</string>
+    <string name="please_input_no">Please fill no.</string>
+    <string name="show_to">Display To</string>
+    <string name="please_input_show_to">Please fill display to</string>
+    <string name="ex_to_bottom_to_top">To have more than one sort. The authority lowest to the highest authority.</string>
+    <string name="show_from">Display From</string>
+    <string name="please_input_show_from">Please fill display from</string>
+    <string name="attachment_file">Attachment</string>
+    <string name="please_input_attachment">Please fill attachment</string>
+    <string name="please_add_attach_file">Please add attach file</string>
+    <string name="reason_book_sent">Reason</string>
+    <string name="please_input_reason_book_sent">Please fill reason</string>
+    <string name="purpose">Purpose</string>
+    <string name="please_input_purpose">Please fill purpose</string>
+    <string name="objective_summary">Objective</string>
+    <string name="please_input_objective_summary">Please fill objective</string>
+    <string name="alert_user_kick">มีผู้อื่นเข้าสู่ระบบโดยใช้บัญชีผู้ใช้ของคุณ คุณต้องการยืนยันการเข้าสู่ระบบหรือไม่</string>
+    <string name="please_edit_memo_detail_in_web">Please edit this document on its website</string>
+    <string name="do_not_comment">Do not comment</string>
+    <string name="acting_for" translatable="false">รักษาราชการแทน</string>
+    <string name="acting_on_behalf_of" translatable="false">ปฏิบัติราชการแทน</string>
+    <string name="memorandum" translatable="false">บันทึกข้อความ</string>
+    <string name="issuing_agency">Name of the issuing agency</string>
+    <string name="refer">Refer</string>
+    <string name="please_input_refer">Please fill refer</string>
+    <string name="conclusion">Conclusion</string>
+    <string name="please_select_conclusion">Please fill conclusion</string>
+    <string name="full_name">Full Name</string>
+    <string name="please_input_name">Please fill name</string>
+    <string name="title_name">Title Name</string>
+    <string name="detail_name">Mr. Ms. Mrs.</string>
+    <string name="host_agency">Name of the host agency</string>
+    <string name="please_input_host_agency">Please fill host agency</string>
+    <string name="tel">Tel</string>
+    <string name="fax">Fax</string>
+    <string name="ex_email">Email</string>
+    <string name="copy_to">Copy to</string>
+    <string name="please_select_copy_to">Please Select Copy to</string>
+    <string name="attach_files">Attach files</string>
+    <string name="please_input_tel">Please fill tel</string>
+    <string name="please_input_fax">Please fill fax</string>
+    <string name="please_input_email">Please fill email</string>
+    <string name="app_name_show" translatable="false">My Memo</string>
+
+</resources>
